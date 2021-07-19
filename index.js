@@ -44,7 +44,7 @@ const add2 = (num) => {
 add2(num3);
 console.log(num3); // 3
 
-// A referencia szerintin átadáskor a memóraicím kerül átadásra,
+// A referencia szerinti átadáskor a memóriacím kerül átadásra,
 // emiatt a függvényen belüli módosítás módosítja a külső váltózó értékét is.
 // A javascriptben az összetett adattípusok referencia szerint kerülnek átadásra: array, object
 // Pl:
